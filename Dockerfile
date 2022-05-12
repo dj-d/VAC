@@ -1,6 +1,6 @@
 FROM alpine:3.15.4
 
-RUN apk add bash curl vim
+RUN apk add bash curl vim gcc build-base
 
 WORKDIR /tmp
 
